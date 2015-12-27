@@ -18,20 +18,29 @@ The analysis is organized into the following sections:
 
 In order to determine whether regression would be an appropriate tool to use for analyzing the mtcars data set and determining whether there is a relationship between transmission type and miles per gallon efficiency, we must first determine whether the data set follows a normal distribution.  A histogram is useful in determining quickly whether the data set distribution follows a normal bell curve shape:
 
-```{r}
+
+```r
 hist(mtcars$mpg, breaks = 10, xlab = "MPG", main = "Miles per Gallon Distribution", col = "blue")
 ```
 
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png) 
+
 We can also use exploratory data analysis to determine if there is relationship between the transmission type and the miles per gallon efficiency.  A boxplot is one example of a useful tool for this type of analysis:
 
-```{r}
+
+```r
 boxplot(mpg ~ am, data = mtcars, main = "Miles per Gallon by Transmission Type", xlab = "Transmission Type", ylab = "MPG")
 ```
+
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
 
 
 You can also embed plots, for example:
 
-```{r fig.width=7, fig.height=6}
+
+```r
 plot(cars)
 ```
+
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
 
