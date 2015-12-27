@@ -1,0 +1,18 @@
+The Relationship between Transmission Type and Miles per Gallon
+========================================================
+
+For this analysis, we will look at the the publicly available Motor Trends set of data in R called mtcars.  We will then use graphical exploratory data analysis and regression to determine if there is a relationship between the type of transmission in a car and the car's miles per gallon fuel efficiency.
+
+The analysis is organized into the following sections:
+1.  
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+
