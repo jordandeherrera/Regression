@@ -28,10 +28,16 @@ We can also use exploratory data analysis to determine if there is relationship 
 boxplot(mpg ~ am, data = mtcars, main = "Miles per Gallon by Transmission Type", xlab = "Transmission Type", ylab = "MPG")
 ```
 
+We can see from both figures above that regression is an appropriate tool (the population follows a normal distribution) and there appears to be a relationship between fuel efficiency and transmission type.
 
-You can also embed plots, for example:
+# Regression Analysis
 
-```{r fig.width=7, fig.height=6}
-plot(cars)
-```
+## Model Creation
 
+## Coefficient Interpretation
+
+## Alternative Models and Model Selection
+
+# Analysis and Answer to Question
+
+# Residual Plot and Diagnostics
